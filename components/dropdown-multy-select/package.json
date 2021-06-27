@@ -1,0 +1,21 @@
+{
+  "name": "@bit/lait.vue-components.dropdown-multy-select",
+  "version": "1.0.1",
+  "homepage": "https://bit.dev/lait/vue-components/dropdown-multy-select",
+  "main": "dist/dropdown-multy-select.common.js",
+  "componentId": {
+    "scope": "lait.vue-components",
+    "name": "dropdown-multy-select",
+    "version": "1.0.1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/vue@0.1.13"
+    }
+  },
+  "browser": "dropdown-multy-select.umd.js"
+}

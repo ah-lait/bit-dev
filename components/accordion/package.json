@@ -1,0 +1,21 @@
+{
+  "name": "@bit/lait.vue-components.accordion",
+  "version": "1.0.1",
+  "homepage": "https://bit.dev/lait/vue-components/accordion",
+  "main": "dist/accordion.common.js",
+  "componentId": {
+    "scope": "lait.vue-components",
+    "name": "accordion",
+    "version": "1.0.1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/vue@0.1.13"
+    }
+  },
+  "browser": "accordion.umd.js"
+}

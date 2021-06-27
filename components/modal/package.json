@@ -1,0 +1,21 @@
+{
+  "name": "@bit/lait.vue-components.modal",
+  "version": "1.0.2",
+  "homepage": "https://bit.dev/lait/vue-components/modal",
+  "main": "dist/modal.common.js",
+  "componentId": {
+    "scope": "lait.vue-components",
+    "name": "modal",
+    "version": "1.0.2"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/vue@0.1.13"
+    }
+  },
+  "browser": "modal.umd.js"
+}

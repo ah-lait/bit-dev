@@ -1,0 +1,21 @@
+{
+  "name": "@bit/lait.vue-components.video-modal",
+  "version": "0.0.2",
+  "homepage": "https://bit.dev/lait/vue-components/video-modal",
+  "main": "dist/video-modal.common.js",
+  "componentId": {
+    "scope": "lait.vue-components",
+    "name": "video-modal",
+    "version": "0.0.2"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/vue@0.1.13"
+    }
+  },
+  "browser": "video-modal.umd.js"
+}
