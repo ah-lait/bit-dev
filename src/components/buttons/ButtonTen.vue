@@ -1,30 +1,30 @@
 <template>
 	<div class="">
 		<button
-			class="pulse-btn pulse-btn--revert flex--center-center"
-			:class="{ 'direction-reverted': revertDirection }"
+			class="pulse-btn flex--center-center"
+			:class="{ 'pulse-btn--revert': revertDirection }"
 		>
-			<IconAngle class="pulse-btn__arrow" />
+			<IconArrow class="pulse-btn__arrow" />
 		</button>
 	</div>
 </template> 
 <script>
-import IconAngle from "../../assets/icons/icon-arrow.svg";
+import IconArrow from "@bit/lait.svg-components.icon-arrow";
 
 export default {
 	name: "Button",
 	components: {
-		IconAngle,
+		IconArrow,
 	},
 	props: {
 		revertDirection: {
 			type: Boolean,
-			default: true,
+			default: false,
 		},
 	},
 };
 </script>
-<style scoped lang="scss">
+<style lang="scss">
 $pulse-arrow-size: 2.4rem !default;
 $button-color: #fff !default;
 $button-border-color: #000 !default;
