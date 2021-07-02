@@ -8,9 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@bit/lait.button-components.button-ten": "0.0.1",
-    "@bit/lait.svg-components.icon-arrow": "0.0.2",
+    "@bit/lait.svg-components.icon-arrow": "0.0.4",
     "@bit/lait.vue-components.accordion": "file:./components/accordion",
+    "@bit/lait.vue-components.buttons.button-ten": "0.0.1",
     "@bit/lait.vue-components.dropdown-multy-select": "file:./components/dropdown-multy-select",
     "@bit/lait.vue-components.dropdown-search-single-select": "file:./components/dropdown-search-single-select",
     "@bit/lait.vue-components.modal": "file:./components/modal",

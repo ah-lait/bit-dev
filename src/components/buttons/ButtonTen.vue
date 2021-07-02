@@ -25,11 +25,16 @@ export default {
 };
 </script>
 <style lang="scss">
-$pulse-arrow-size: 2.4rem !default;
-$button-color: #fff !default;
-$button-border-color: #000 !default;
-$transition: 0.6s cubic-bezier(0.218, 0.63, 0.325, 1) !default;
-$transition--fast: 0.4s cubic-bezier(0.218, 0.63, 0.325, 1) !default;
+/* CONTROLLABLE VARIABLES
+
+ --bit-btn-color 					- default: #fff
+ --bit-btn-border-color 	- default: #000
+ --bit-arrow-size 				- default: 2.4rem
+ --bit-transition					- default: 0.4s cubic-bezier(0.218, 0.63, 0.325, 1)
+ --bit-transition--fast		- default: 0.4s cubic-bezier(0.218, 0.63, 0.325, 1)
+
+*/
+
 .pulse-btn {
 	position: relative;
 	height: 6rem;
@@ -37,7 +42,7 @@ $transition--fast: 0.4s cubic-bezier(0.218, 0.63, 0.325, 1) !default;
 	border-radius: 50%;
 	margin-right: 2rem;
 	border: 0;
-	background-color: $button-color;
+	background-color: var(--bit-btn-color, #fff);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -50,8 +55,8 @@ $transition--fast: 0.4s cubic-bezier(0.218, 0.63, 0.325, 1) !default;
 		bottom: 0;
 		left: 0;
 		border-radius: 50%;
-		border: 2px solid $button-border-color;
-		transition: $transition--fast;
+		border: 2px solid var(--bit-btn-border-color, #000);
+		transition: var(--bit-transition, 0.4s cubic-bezier(0.218, 0.63, 0.325, 1));
 	}
 	// background
 	&:before {
@@ -62,26 +67,29 @@ $transition--fast: 0.4s cubic-bezier(0.218, 0.63, 0.325, 1) !default;
 		bottom: 0;
 		left: 0;
 		border-radius: 50%;
-		background-color: $button-border-color;
+		background-color: var(--bit-btn-border-color, #000);
 		opacity: 0;
 		transform: scale(0);
-		transition: $transition;
+		transition: var(--bit-transition, 0.4s cubic-bezier(0.218, 0.63, 0.325, 1));
 	}
 	// icon in center
 	&__arrow {
 		display: block;
-		height: $pulse-arrow-size;
-		width: $pulse-arrow-size;
-		background-size: $pulse-arrow-size $pulse-arrow-size;
-		transition: $transition--fast;
+		height: var(--bit-arrow-size, 2.4rem);
+		width: var(--bit-arrow-size, 2.4rem);
+		background-size: var(--bit-arrow-size, 2.4rem) var(--bit-arrow-size, 2.4rem);
+		transition: var(
+			--bit-transition--fast,
+			0.4s cubic-bezier(0.218, 0.63, 0.325, 1)
+		);
 		z-index: 1;
-		fill: $button-border-color;
+		fill: var(--bit-btn-border-color, #000);
 	}
 }
 // hover
 .pulse-btn:hover {
 	.pulse-btn__arrow {
-		fill: $button-color;
+		fill: var(--bit-button-color, #fff);
 	}
 
 	// border

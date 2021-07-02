@@ -16,6 +16,27 @@
 
 <script>
 export default {
-	name: "IconArrow"
+	name: "IconArrow",
 };
 </script>
+
+<style lang="scss" scoped>
+/* CONTROLLABLE VARIABLES
+ --bit-icon-arrow-color 					- default: #000
+ --bit-icon-arrow-hover-color 		- default: #000
+ --bit-icon-arrow-transition 			- default: 0.4s cubic-bezier(0.218, 0.63, 0.325, 1)
+ --bit-icon-arrow-height 					- default: 12px
+ --bit-icon-arrow-width 					- default: 25px
+*/
+
+.svg-icon {
+	fill: var(--bit-icon-arrow-color, #000);
+	height: var(--bit-icon-arrow-height, 12px);
+	width: var(--bit-icon-arrow-width, 25px);
+	transition: var(--bit-transition, 0.4s cubic-bezier(0.218, 0.63, 0.325, 1));
+
+	&:hover {
+		fill: var(--bit-icon-arrow-hover, #000);
+	}
+}
+</style>
