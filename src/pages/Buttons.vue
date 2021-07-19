@@ -2,30 +2,32 @@
 	<div class="buttons">
 		<h3>Button ten</h3>
 		<div style="display: flex; margin-top: 50px">
+			<ButtonNine id="" aria-label="" class="btn-nine"> 
+				Test	
+			</ButtonNine>
 			<BitButtonTen revert-direction />
 			<ButtonTen />
-			<IconArrow />
-
-			<TestSpace />
+			<IconArrow2 class="icon-arrow-2" />
+			<ButtonEight />
 		</div>
 	</div>
 </template>
 
 <script>
-import ButtonTen from "../components/buttons/ButtonTen.vue";
+import ButtonNine from "../components/buttons/ButtonNine.vue";
 import BitButtonTen from "@bit/lait.vue-components.buttons.button-ten";
-import IconArrow from "../components/svg/IconArrow.vue";
-import TestSpace from "../components/test/TestSpace.vue";
+import IconArrow2 from "../components/svg/IconArrow2.vue";
+import ButtonEight from '../components/buttons/ButtonEight.vue';
 
 export default {
 	components: {
-		ButtonTen,
+		ButtonNine,
 		BitButtonTen,
-		IconArrow,
-		TestSpace,
+		IconArrow2,
+		ButtonEight
 	},
 };
-</script>
+</script>,
 
 <style scoped lang="scss">
 @import "@/assets/styles/_bit-dev-themes.scss";
@@ -34,4 +36,15 @@ export default {
 	display: flex;
 	flex-direction: column;
 }
+
+.btn-nine {
+	--bit-btn-text-size: 2.4rem;
+	--bit-btn-text-color: pink;
+	--bit-btn-color: blue;
+}
+
+.icon-arrow-2 {
+	--bit-icon-arrow-color: red;
+}
+
 </style>

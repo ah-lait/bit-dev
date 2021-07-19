@@ -7,6 +7,7 @@
 		<router-link to="/accordion">Accordion</router-link>
 		<router-link to="/read-more">Read More</router-link>
 		<router-link to="/buttons">Buttons</router-link>
+		<router-link to="/jotforms">Jotforms</router-link>
 	</div>
 </template>
 

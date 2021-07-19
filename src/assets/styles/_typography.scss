@@ -1,0 +1,59 @@
+/// <reference path="../Helpers/_vars" />
+/// <reference path="../Helpers/_mixins" />
+/// <reference path="../Helpers/_fonts" />
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+}
+h3 {
+  font-size: 3rem;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+}
+h4 {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 100;
+  margin-bottom: 2.5rem;
+}
+p {
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+ul {
+  li {
+    font-size: 1.4rem;
+
+    a {
+      font-size: 1.4rem;
+      text-decoration: underline;
+    }
+  }
+}
+i {
+  display: inline-block;
+  margin-top: 2rem;
+}
+@include viewport-small {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}

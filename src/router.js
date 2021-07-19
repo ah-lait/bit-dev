@@ -8,6 +8,7 @@ import DropdownMultySelect from './pages/DropdownMultySelect.vue';
 import Accordion from './pages/Accordion.vue';
 import ReadMore from './pages/ReadMore.vue';
 import Buttons from './pages/Buttons.vue';
+import Jotforms from './pages/Jotform.vue';
 
 Vue.use(Router);
 
@@ -54,6 +55,11 @@ export default new Router({
       path: '/buttons',
       name: 'Buttons',
       component: Buttons,
+    },
+    {
+      path: '/jotforms',
+      name: 'Joforms',
+      component: Jotforms,
     },
   ],
 });

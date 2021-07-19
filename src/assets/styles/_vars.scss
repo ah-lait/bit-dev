@@ -1,0 +1,27 @@
+//------- colors -------//
+// default
+$color-black: #000;
+$color-white: #f0f0f0;
+
+// gray
+$color-gray-woodsmoke: #17181a;
+
+// blue
+$color-blue-tory: #1341bb;
+
+// gray
+$color-gray-wild-sand: #f5f5f5;
+
+//------- Transistions and animation -------//
+$transition--cubic: cubic-bezier(.218,.63,.325,1);
+$transition: .6s $transition--cubic;
+$transition--slow: .95s cubic-bezier(.218,.63,.325,1);
+$transition--fast: .4s $transition--cubic;
+
+//------- Media queries -------//
+$viewport-extra-small: 350px;
+$viewport-small: 576px;
+$viewport-medium: 992px;
+$viewport-large: 1025px;
+$viewport-extra-large: 1200px;
+$viewport-max: 1920px;
