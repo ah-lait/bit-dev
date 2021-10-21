@@ -1,0 +1,21 @@
+{
+  "name": "@bit/lait.vue-components.dropdown-single-select",
+  "version": "1.0.4",
+  "homepage": "https://bit.dev/lait/vue-components/dropdown-single-select",
+  "main": "dist/dropdown-single-select.common.js",
+  "componentId": {
+    "scope": "lait.vue-components",
+    "name": "dropdown-single-select",
+    "version": "1.0.2"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/vue@0.1.13"
+    }
+  },
+  "browser": "dropdown-single-select.umd.js"
+}

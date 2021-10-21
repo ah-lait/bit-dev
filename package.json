@@ -15,6 +15,7 @@
     "@bit/lait.vue-components.buttons.button-ten": "0.0.1",
     "@bit/lait.vue-components.dropdown-multy-select": "file:./components/dropdown-multy-select",
     "@bit/lait.vue-components.dropdown-search-single-select": "file:./components/dropdown-search-single-select",
+    "@bit/lait.vue-components.dropdown-single-select": "file:./components/dropdown-single-select",
     "@bit/lait.vue-components.modal": "file:./components/modal",
     "@bit/lait.vue-components.read-more": "file:./components/read-more",
     "@bit/lait.vue-components.video-modal": "file:./components/video-modal",

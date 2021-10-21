@@ -1,6 +1,6 @@
 {
   "name": "@bit/lait.vue-components.video-modal",
-  "version": "0.0.2",
+  "version": "1.0.2",
   "homepage": "https://bit.dev/lait/vue-components/video-modal",
   "main": "dist/video-modal.common.js",
   "componentId": {

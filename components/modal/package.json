@@ -1,6 +1,6 @@
 {
   "name": "@bit/lait.vue-components.modal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://bit.dev/lait/vue-components/modal",
   "main": "dist/modal.common.js",
   "componentId": {
