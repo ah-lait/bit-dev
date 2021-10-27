@@ -185,7 +185,24 @@
         "origin": "IMPORTED",
         "originallySharedDir": "src/components"
     },
-    "lait.vue-components/modal@1.0.3": {
+    "lait.vue-components/loaders/loader-pulse@0.0.3": {
+        "files": [
+            {
+                "relativePath": "src/components/loader/loaderPulse.vue",
+                "test": false,
+                "name": "loaderPulse.vue"
+            },
+            {
+                "relativePath": "src/docs/loaders/loader-pulse.md",
+                "test": false,
+                "name": "loader-pulse.md"
+            }
+        ],
+        "mainFile": "src/components/loader/loaderPulse.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "lait.vue-components/modal@1.0.14": {
         "files": [
             {
                 "name": "Modal.vue",

@@ -9,6 +9,7 @@
     <router-link to="/buttons">Buttons</router-link>
     <router-link to="/jotforms">Jotforms</router-link>
     <router-link to="/layouts">Layouts</router-link>
+    <router-link to="/loaders">Loaders</router-link>
   </div>
 </template>
 

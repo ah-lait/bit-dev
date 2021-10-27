@@ -204,7 +204,7 @@ $accordion-active-background-color: null !default;
   //Content region
   &__item-body {
     padding: $accordion-spacing;
-    visibilty: visible;
+    visibility: visible;
     @media only screen and (max-width: 992px) {
       padding: $accordion-spacing--medium;
       padding-top: 0;

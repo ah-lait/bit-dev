@@ -9,6 +9,7 @@ import ReadMore from "./pages/ReadMore.vue";
 import Buttons from "./pages/Buttons.vue";
 import Jotforms from "./pages/Jotform.vue";
 import Layouts from "./pages/Layouts.vue";
+import Loaders from "./pages/Loaders.vue";
 
 Vue.use(Router);
 
@@ -60,6 +61,11 @@ export default new Router({
       path: "/layouts",
       name: "Layouts",
       component: Layouts,
+    },
+    {
+      path: "/loaders",
+      name: "Loaders",
+      component: Loaders,
     },
   ],
 });

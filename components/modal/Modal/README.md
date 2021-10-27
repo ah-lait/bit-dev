@@ -23,15 +23,18 @@ The state(open/closed) of the modal has to be passed down from parent component 
 
 - type: Function
 
-## Scss variables
+## Css variables
 
-| Var                       | Type       |
-| ------------------------- | ---------- |
-| \$modal-backgrop-bg-color | hex/rgb    |
-| \$modal-content-bg-color  | hex/rgb    |
-| \$close-btn-color         | hex/rgb    |
-| \$focus-outline           | outline    |
-| \$modal-transition        | transition |
+| CSS Vars                        | Type       |
+| ------------------------------- | ---------- |
+| \ --bit-modal-backdrop-bg-color | hex/rgb    |
+| \ --bit-modal-content-bg-color  | hex/rgb    |
+| \ --bit-modal-focus-outline0    | hex/rgb    |
+| \ --bit-modal-close-btn-color   | hex/rgb    |
+| \ --bit-modal-transition        | hex/rgb    |
+| \ --bit-modal-content\_\_height | hex/rgb    |
+| \ --bit-modal-content\_\_width  | outline    |
+| \ --bit-modal-index             | transition |
 
 ## Accessibility
 
