@@ -15,9 +15,9 @@ export default {
  * ==============================================
  */
 
-$x1: calc(var(--bit-pulse-left-pos, 9999px) - var(--bit-pulse-dot-space, 15px));
-$x2: var(--bit-pulse-left-pos, 9999px);
-$x3: calc(var(--bit-pulse-left-pos, 9999px) + var(--bit-pulse-dot-space, 15px));
+$x1: #{calc(var(--bit-pulse-left-pos, 9999px) - var(--bit-pulse-dot-space, 15px))};
+$x2: #{var(--bit-pulse-left-pos, 9999px)};
+$x3: #{calc(var(--bit-pulse-left-pos, 9999px) + var(--bit-pulse-dot-space, 15px))};
 
 // var(--bit-pulse-width, 10px);
 // var(--bit-pulse-height, 10px);

@@ -23,9 +23,6 @@ export default {
 // var(--bit-stretch-scale-1, 0.8)
 // var(--bit-stretch-scale-2, 0.8)
 
-$ratio1: var(--bit-stretch-scale-1, 0.8);
-$ratio2: var(--bit-stretch-scale-2, 0.7);
-
 .bit-dot-stretch {
   width: var(--bit-stretch-width, 10px);
   height: var(--bit-stretch-height, 10px);
@@ -70,7 +67,7 @@ $ratio2: var(--bit-stretch-scale-2, 0.7);
 
   50%,
   60% {
-    transform: scale($ratio1, $ratio1);
+    transform: scale(var(--bit-stretch-scale-1, 0.8), var(--bit-stretch-scale-1, 0.8));
   }
 
   100% {
@@ -80,7 +77,7 @@ $ratio2: var(--bit-stretch-scale-2, 0.7);
 
 @keyframes dot-stretching-before {
   0% {
-    transform: translate(0) scale($ratio2, $ratio2);
+    transform: translate(0) scale(var(--bit-stretch-scale-2, 0.7), var(--bit-stretch-scale-2, 0.7));
   }
 
   50%,
@@ -89,13 +86,13 @@ $ratio2: var(--bit-stretch-scale-2, 0.7);
   }
 
   100% {
-    transform: translate(0) scale($ratio2, $ratio2);
+    transform: translate(0) scale(var(--bit-stretch-scale-2, 0.7), var(--bit-stretch-scale-2, 0.7));
   }
 }
 
 @keyframes dot-stretching-after {
   0% {
-    transform: translate(0) scale($ratio2, $ratio2);
+    transform: translate(0) scale(var(--bit-stretch-scale-2, 0.7), var(--bit-stretch-scale-2, 0.7));
   }
 
   50%,
@@ -104,7 +101,7 @@ $ratio2: var(--bit-stretch-scale-2, 0.7);
   }
 
   100% {
-    transform: translate(0) scale($ratio2, $ratio2);
+    transform: translate(0) scale(var(--bit-stretch-scale-2, 0.7), var(--bit-stretch-scale-2, 0.7));
   }
 }
 </style>

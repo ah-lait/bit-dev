@@ -185,7 +185,7 @@
         "origin": "IMPORTED",
         "originallySharedDir": "src/components"
     },
-    "lait.vue-components/loaders/loader-pulse@0.0.4": {
+    "lait.vue-components/loaders/loader-pulse@0.0.5": {
         "files": [
             {
                 "relativePath": "src/components/loader/loaderPulse.vue",
@@ -202,7 +202,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "lait.vue-components/loaders/loader-stretch@0.0.4": {
+    "lait.vue-components/loaders/loader-stretch@0.0.6": {
         "files": [
             {
                 "relativePath": "src/components/loader/loaderStretch.vue",

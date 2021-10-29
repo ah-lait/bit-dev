@@ -12,4 +12,4 @@
 
 ## HTML classes
 
-\*\* .bit-dot-stretching
+.bit-dot-stretching

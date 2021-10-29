@@ -13,4 +13,4 @@
 
 ## HTML classes
 
-\*\* .bit-pulse-dot
+.bit-pulse-dot

@@ -9,7 +9,7 @@
 
 <script>
 import LoaderPulse from "../components/loader/loaderPulse.vue";
-import LoaderStretch from "../components/loader/loaderStretch.vue";
+import LoaderStretch from "@bit/lait.vue-components.loaders.loader-stretch";
 
 export default {
   data() {
@@ -35,5 +35,10 @@ button {
 .spacing {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.bit-dot-stretching {
+  --bit-stretch-scale-1: 0.4;
+  --bit-stretch-scale-2: 0.2;
 }
 </style>
