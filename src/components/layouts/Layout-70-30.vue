@@ -1,15 +1,15 @@
 <template>
   <div class="row">
-    <div class="col-md-6 col-sm-12">
+    <div class="col-md-8 col-sm-12">
       <slot name="col-1" />
     </div>
-    <div class="col-md-6 col-sm-12">
+    <div class="col-md-4 col-sm-12">
       <slot name="col-2" />
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: "Layout-50-50",
+  name: "Layout-70-30",
 };
 </script>

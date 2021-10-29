@@ -185,6 +185,74 @@
         "origin": "IMPORTED",
         "originallySharedDir": "src/components"
     },
+    "lait.vue-components/layouts/layout-33-33-33@0.0.3": {
+        "files": [
+            {
+                "relativePath": "src/components/layouts/Layout-33-33-33.vue",
+                "test": false,
+                "name": "Layout-33-33-33.vue"
+            },
+            {
+                "relativePath": "src/docs/layouts/layouts.md",
+                "test": false,
+                "name": "layouts.md"
+            }
+        ],
+        "mainFile": "src/components/layouts/Layout-33-33-33.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "lait.vue-components/layouts/layout-50-50@0.0.3": {
+        "files": [
+            {
+                "relativePath": "src/components/layouts/Layout-50-50.vue",
+                "test": false,
+                "name": "Layout-50-50.vue"
+            },
+            {
+                "relativePath": "src/docs/layouts/layouts-50-50.md",
+                "test": false,
+                "name": "layouts-50-50.md"
+            }
+        ],
+        "mainFile": "src/components/layouts/Layout-50-50.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "lait.vue-components/layouts/layout-60-40@0.0.3": {
+        "files": [
+            {
+                "relativePath": "src/components/layouts/Layout-60-40.vue",
+                "test": false,
+                "name": "Layout-60-40.vue"
+            },
+            {
+                "relativePath": "src/docs/layouts/layouts-60-40.md",
+                "test": false,
+                "name": "layouts-60-40.md"
+            }
+        ],
+        "mainFile": "src/components/layouts/Layout-60-40.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "lait.vue-components/layouts/layout-70-30@0.0.3": {
+        "files": [
+            {
+                "relativePath": "src/components/layouts/Layout-70-30.vue",
+                "test": false,
+                "name": "Layout-70-30.vue"
+            },
+            {
+                "relativePath": "src/docs/layouts/layouts-33-33-33.md",
+                "test": false,
+                "name": "layouts-33-33-33.md"
+            }
+        ],
+        "mainFile": "src/components/layouts/Layout-70-30.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "lait.vue-components/loaders/loader-pulse@0.0.5": {
         "files": [
             {
