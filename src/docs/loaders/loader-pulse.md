@@ -2,11 +2,15 @@
 
 | CSS Vars                   | Type    |
 | -------------------------- | ------- |
-| \ --bit-pulse-width        | hex/rgb |
-| \ --bit-pulse-height       | hex/rgb |
-| \ --bit-pulse-br           | hex/rgb |
+| \ --bit-pulse-width        | px      |
+| \ --bit-pulse-height       | px      |
+| \ --bit-pulse-br           | px      |
 | \ --bit-pulse-bg-color     | hex/rgb |
 | \ --bit-pulse-color        | hex/rgb |
-| \ --bit-pulse-dot-space    | hex/rgb |
-| \ --bit-pulse-left-pos     | hex/rgb |
-| \ --bit-pulse-left-pos-neg | hex/rgb |
+| \ --bit-pulse-dot-space    | px      |
+| \ --bit-pulse-left-pos     | px      |
+| \ --bit-pulse-left-pos-neg | px      |
+
+## HTML classes
+
+\*\* .bit-pulse-dot

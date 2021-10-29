@@ -1,13 +1,15 @@
 <template>
   <div class="container">
     <div style="margin-left: 50px;">
-      <LoaderPulse />
+      <LoaderPulse class="spacing" />
+      <LoaderStretch class="spacing" />
     </div>
   </div>
 </template>
 
 <script>
 import LoaderPulse from "../components/loader/loaderPulse.vue";
+import LoaderStretch from "../components/loader/loaderStretch.vue";
 
 export default {
   data() {
@@ -17,6 +19,7 @@ export default {
   },
   components: {
     LoaderPulse,
+    LoaderStretch,
   },
 };
 </script>
@@ -27,5 +30,10 @@ button {
   background-color: #4c757f;
   color: #fff;
   padding: 20px 40px;
+}
+
+.spacing {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 </style>
