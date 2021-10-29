@@ -60,6 +60,18 @@
         "origin": "IMPORTED",
         "originallySharedDir": "src/components"
     },
+    "lait.vue-components/accordions/accordion-controller@0.0.2": {
+        "files": [
+            {
+                "relativePath": "src/components/accordions/AccordionController.vue",
+                "test": false,
+                "name": "AccordionController.vue"
+            }
+        ],
+        "mainFile": "src/components/accordions/AccordionController.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "lait.vue-components/buttons/button-nine@0.0.1": {
         "files": [
             {
@@ -145,7 +157,69 @@
         "origin": "IMPORTED",
         "originallySharedDir": "src/components"
     },
-    "lait.vue-components/modal@1.0.2": {
+    "lait.vue-components/dropdown-single-select@1.0.4": {
+        "files": [
+            {
+                "name": "DropdownSingleSelect.vue",
+                "relativePath": "DropdownSingleSelect/DropdownSingleSelect.vue",
+                "test": false
+            },
+            {
+                "name": "README.md",
+                "relativePath": "DropdownSingleSelect/README.md",
+                "test": false
+            },
+            {
+                "name": "chevron.svg",
+                "relativePath": "DropdownSingleSelect/chevron.svg",
+                "test": false
+            },
+            {
+                "name": "package.json",
+                "relativePath": "DropdownSingleSelect/package.json",
+                "test": false
+            }
+        ],
+        "mainFile": "DropdownSingleSelect/DropdownSingleSelect.vue",
+        "rootDir": "components/dropdown-single-select",
+        "origin": "IMPORTED",
+        "originallySharedDir": "src/components"
+    },
+    "lait.vue-components/loaders/loader-pulse@0.0.5": {
+        "files": [
+            {
+                "relativePath": "src/components/loader/loaderPulse.vue",
+                "test": false,
+                "name": "loaderPulse.vue"
+            },
+            {
+                "relativePath": "src/docs/loaders/loader-pulse.md",
+                "test": false,
+                "name": "loader-pulse.md"
+            }
+        ],
+        "mainFile": "src/components/loader/loaderPulse.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "lait.vue-components/loaders/loader-stretch@0.0.6": {
+        "files": [
+            {
+                "relativePath": "src/components/loader/loaderStretch.vue",
+                "test": false,
+                "name": "loaderStretch.vue"
+            },
+            {
+                "relativePath": "src/docs/loaders/loader-stretch.md",
+                "test": false,
+                "name": "loader-stretch.md"
+            }
+        ],
+        "mainFile": "src/components/loader/loaderStretch.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "lait.vue-components/modal@1.0.14": {
         "files": [
             {
                 "name": "Modal.vue",
@@ -181,8 +255,13 @@
         "origin": "IMPORTED",
         "originallySharedDir": "src/components/readMoreComponent"
     },
-    "lait.vue-components/video-modal@0.0.2": {
+    "lait.vue-components/video-modal@1.0.2": {
         "files": [
+            {
+                "relativePath": "VideoModal/README.md",
+                "test": false,
+                "name": "README.md"
+            },
             {
                 "name": "VideoModal.vue",
                 "relativePath": "VideoModal/VideoModal.vue",

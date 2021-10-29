@@ -1,65 +1,71 @@
-import Vue from 'vue';
-import Router from 'vue-router';
-import VideoModal from './pages/VideoModal.vue';
-import Modal from './pages/Modal.vue';
-import Frontpage from './pages/Frontpage.vue';
-import DropdownSearchSingleSelect from './pages/DropdownSearchSingleSelect.vue';
-import DropdownMultySelect from './pages/DropdownMultySelect.vue';
-import Accordion from './pages/Accordion.vue';
-import ReadMore from './pages/ReadMore.vue';
-import Buttons from './pages/Buttons.vue';
-import Jotforms from './pages/Jotform.vue';
+import Vue from "vue";
+import Router from "vue-router";
+import VideoModal from "./pages/VideoModal.vue";
+import Modal from "./pages/Modal.vue";
+import Frontpage from "./pages/Frontpage.vue";
+import Dropdowns from "./pages/Dropdowns.vue";
+import Accordion from "./pages/Accordion.vue";
+import ReadMore from "./pages/ReadMore.vue";
+import Buttons from "./pages/Buttons.vue";
+import Jotforms from "./pages/Jotform.vue";
+import Layouts from "./pages/Layouts.vue";
+import Loaders from "./pages/Loaders.vue";
 
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
-      name: 'Frontpage',
+      path: "/",
+      name: "Frontpage",
       component: Frontpage,
     },
     {
-      path: '/video-modal',
-      name: 'VideoModal',
+      path: "/video-modal",
+      name: "VideoModal",
       component: VideoModal,
     },
     {
-      path: '/modal',
-      name: 'Modal',
+      path: "/modal",
+      name: "Modal",
       component: Modal,
     },
     {
-      path: '/dropdown-search-single-select',
-      name: 'Dropdown search single select',
-      component: DropdownSearchSingleSelect,
+      path: "/dropdowns",
+      name: "Dropdowns",
+      component: Dropdowns,
     },
     {
-      path: '/dropdown-multy-select',
-      name: 'Dropdown multi select',
-      component: DropdownMultySelect,
-    },
-    {
-      path: '/accordion',
-      name: 'Accordion',
+      path: "/accordion",
+      name: "Accordion",
       component: Accordion,
     },
     {
-      path: '/read-more',
-      name: 'Read More',
+      path: "/read-more",
+      name: "Read More",
       component: ReadMore,
     },
     {
-      path: '/buttons',
-      name: 'Buttons',
+      path: "/buttons",
+      name: "Buttons",
       component: Buttons,
     },
     {
-      path: '/jotforms',
-      name: 'Joforms',
+      path: "/jotforms",
+      name: "Joforms",
       component: Jotforms,
+    },
+    {
+      path: "/layouts",
+      name: "Layouts",
+      component: Layouts,
+    },
+    {
+      path: "/loaders",
+      name: "Loaders",
+      component: Loaders,
     },
   ],
 });
