@@ -185,6 +185,18 @@
         "origin": "IMPORTED",
         "originallySharedDir": "src/components"
     },
+    "lait.vue-components/lists/custom-list@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/components/list/checkmarkItem.vue",
+                "test": false,
+                "name": "checkmarkItem.vue"
+            }
+        ],
+        "mainFile": "src/components/list/checkmarkItem.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "lait.vue-components/loaders/loader-pulse@0.0.5": {
         "files": [
             {
