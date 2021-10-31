@@ -25,6 +25,30 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "lait.svg-components/icon-close@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/components/svg/iconClose.vue",
+                "test": false,
+                "name": "iconClose.vue"
+            }
+        ],
+        "mainFile": "src/components/svg/iconClose.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "lait.svg-components/icon-menu@0.0.1": {
+        "files": [
+            {
+                "relativePath": "src/components/svg/iconMenu.vue",
+                "test": false,
+                "name": "iconMenu.vue"
+            }
+        ],
+        "mainFile": "src/components/svg/iconMenu.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "lait.utility/jotform-listener@0.0.1": {
         "files": [
             {
@@ -60,7 +84,7 @@
         "origin": "IMPORTED",
         "originallySharedDir": "src/components"
     },
-    "lait.vue-components/accordions/accordion-controller@0.0.2": {
+    "lait.vue-components/accordions/accordion-controller@1.0.0": {
         "files": [
             {
                 "relativePath": "src/components/accordions/AccordionController.vue",
@@ -69,6 +93,18 @@
             }
         ],
         "mainFile": "src/components/accordions/AccordionController.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "lait.vue-components/accordions/accordion-single@1.0.0": {
+        "files": [
+            {
+                "relativePath": "src/components/accordions/AccordionSingle.vue",
+                "test": false,
+                "name": "AccordionSingle.vue"
+            }
+        ],
+        "mainFile": "src/components/accordions/AccordionSingle.vue",
         "origin": "AUTHORED",
         "exported": true
     },
@@ -216,6 +252,18 @@
             }
         ],
         "mainFile": "src/components/loader/loaderStretch.vue",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "lait.vue-components/menus/mobile-menu@0.0.4": {
+        "files": [
+            {
+                "relativePath": "src/components/menus/mobileMenu.vue",
+                "test": false,
+                "name": "mobileMenu.vue"
+            }
+        ],
+        "mainFile": "src/components/menus/mobileMenu.vue",
         "origin": "AUTHORED",
         "exported": true
     },

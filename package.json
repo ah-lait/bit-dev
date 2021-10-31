@@ -10,6 +10,7 @@
   "dependencies": {
     "@bit/lait.svg-components.icon-arrow": "0.0.4",
     "@bit/lait.svg-components.icon-arrow-2": "0.0.1",
+    "@bit/lait.svg-components.icon-close": "0.0.1",
     "@bit/lait.utility.jotform-listener": "0.0.1",
     "@bit/lait.vue-components.accordion": "file:./components/accordion",
     "@bit/lait.vue-components.buttons.button-ten": "0.0.1",

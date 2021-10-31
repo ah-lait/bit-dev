@@ -11,7 +11,7 @@
           </div>
           <div @click="setMenu" class="bit-devices-menu-overlay__close-icon">
             <slot name="menu-icon-close">
-              <span>CLOSE</span>
+              <IconClose />
             </slot>
           </div>
         </div>
@@ -29,6 +29,7 @@
 </template>
 
 <script>
+import IconClose from "@bit/lait.svg-components.icon-close";
 export default {
   name: "MobileMenu",
   props: {
@@ -38,12 +39,12 @@ export default {
       default: null,
     },
   },
+  components: {
+    IconClose,
+  },
   data() {
     return {
-      isOpen: {
-        type: Boolean,
-        default: false,
-      },
+      isOpen: false,
     };
   },
   mounted() {
@@ -86,6 +87,7 @@ $menu-mobile-width: var(--bit-device-mobile-width, 100vw);
 $menu-mobile-width-neg: calc(var(--bit-device-mobile-width, 100vw) * -1);
 
 .bit-devices-menu-overlay {
+  box-sizing: border-box;
   position: absolute;
   top: 0;
   right: $menu-width-neg;
@@ -111,11 +113,10 @@ $menu-mobile-width-neg: calc(var(--bit-device-mobile-width, 100vw) * -1);
 }
 
 .bit-menu-move {
-  transform: translateX($menu-width-neg);
   transition: transform 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 
   &.is-active {
-    transform: translateX(0);
+    transform: translateX($menu-width-neg);
   }
 }
 
@@ -147,7 +148,7 @@ $menu-mobile-width-neg: calc(var(--bit-device-mobile-width, 100vw) * -1);
     right: $menu-mobile-width-neg;
   }
 
-  .bit-menu-active {
+  .bit-menu-move.is-active {
     transform: translateX($menu-mobile-width-neg);
   }
 }

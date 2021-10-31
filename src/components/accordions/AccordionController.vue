@@ -22,7 +22,6 @@ export default {
     if (this.defaultActive !== null) {
       this.activeId = this.defaultActive;
     }
-
     this.$on("setActiveAccordion", (id) => {
       if (id === this.activeId) {
         this.activeId = null;

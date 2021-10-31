@@ -14,7 +14,7 @@
 
     <MobileMenu content-to-move=".navbar .content-spacing">
       <template #menu-icon>
-        <div>===</div>
+        <IconMenu />
       </template>
       <template #menu-icon-logo>
         LOGO
@@ -28,10 +28,12 @@
 
 <script>
 import MobileMenu from "../components/menus/mobileMenu.vue";
+import IconMenu from "../components/svg/IconMenu.vue";
 export default {
   name: "Navbar",
   components: {
     MobileMenu,
+    IconMenu,
   },
 };
 </script>
