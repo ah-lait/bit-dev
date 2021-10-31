@@ -10,12 +10,29 @@
     <router-link to="/jotforms">Jotforms</router-link>
     <router-link to="/layouts">Layouts</router-link>
     <router-link to="/loaders">Loaders</router-link>
+    <router-link to="/menus">Menus</router-link>
+
+    <MobileMenu content-to-move=".navbar .content-spacing">
+      <template #menu-icon>
+        <div>===</div>
+      </template>
+      <template #menu-icon-logo>
+        LOGO
+      </template>
+      <template #menu-content>
+        LALALAL
+      </template>
+    </MobileMenu>
   </div>
 </template>
 
 <script>
+import MobileMenu from "../components/menus/mobileMenu.vue";
 export default {
   name: "Navbar",
+  components: {
+    MobileMenu,
+  },
 };
 </script>
 <style lang="scss">

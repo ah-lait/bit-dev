@@ -10,6 +10,7 @@ import Buttons from "./pages/Buttons.vue";
 import Jotforms from "./pages/Jotform.vue";
 import Layouts from "./pages/Layouts.vue";
 import Loaders from "./pages/Loaders.vue";
+import Menus from "./pages/Menus.vue";
 
 Vue.use(Router);
 
@@ -66,6 +67,11 @@ export default new Router({
       path: "/loaders",
       name: "Loaders",
       component: Loaders,
+    },
+    {
+      path: "/menus",
+      name: "Menus",
+      component: Menus,
     },
   ],
 });
